@@ -100,6 +100,9 @@
 /vendor/bin/hw/fpc_ident                                                                    u:object_r:hal_fingerprint_default_exec:s0
 /vendor/bin/hw/goodix_ident                                                                 u:object_r:hal_fingerprint_default_exec:s0
 
+# FPS info
+/sys/class/drm/card0/sde-crtc-0/measured_fps                         u:object_r:vendor_sysfs_graphics:s0
+
 # IFAA
 /(vendor|system/vendor)/bin/hw/vendor\.zui\.hardware\.ifaa@1\.0-service    u:object_r:hal_ifaa_default_exec:s0
 

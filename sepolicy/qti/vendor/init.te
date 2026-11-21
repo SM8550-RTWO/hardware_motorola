@@ -21,3 +21,7 @@ recovery_only(`
   allow init self:capability sys_module;
   allow init rootfs:system module_load;
 ')
+
+# FPS info
+allow init vendor_sysfs_graphics:dir search;
+allow init vendor_sysfs_graphics:file rw_file_perms;
